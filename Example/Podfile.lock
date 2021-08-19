@@ -1,17 +1,35 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HXMultiThread (0.1.0)
+  - HXMultiThread (0.1.0):
+    - AFNetworking (= 4.0.1)
 
 DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
   - FBSnapshotTestCase
   - HXMultiThread (from `../`)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,9 +37,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HXMultiThread: cfc39097a07d2e074bd2973511655f9ffd709387
+  HXMultiThread: 58b02204054ea1def43385145827e1785667ad5e
 
-PODFILE CHECKSUM: 94d5f1ab9f6563398a40ba85e9953ab6120b3281
+PODFILE CHECKSUM: 2530deb83a4e863fe8fdda756cbcf8be71c94756
 
 COCOAPODS: 1.9.2
