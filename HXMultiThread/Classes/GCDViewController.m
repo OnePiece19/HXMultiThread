@@ -1,17 +1,17 @@
 //
-//  ViewController.m
+//  GCDViewController.m
 //  GCD
 //
 //  Created by HX on 2019/11/6.
 //  Copyright © 2019 GCD. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "GCDViewController.h"
 #import "UserCenter.h"
 #import "AFNetworking.h"
 #import "UIKit+AFNetworking.h"
 
-@interface ViewController ()
+@interface GCDViewController ()
 
 /* 剩余火车票数 */
 @property (nonatomic, assign) int ticketSurplusCount;
@@ -53,7 +53,7 @@ GCD中有两个核心概念：
  10、信号量dispatch_semaphore
  
 */
-@implementation ViewController
+@implementation GCDViewController
 {
     dispatch_semaphore_t semaphoreLock;
 }

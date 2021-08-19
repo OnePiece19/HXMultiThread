@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GCDViewController.h
 //  GCD
 //
 //  Created by HX on 2019/11/6.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GCDViewController : UIViewController
 
 
 @end
